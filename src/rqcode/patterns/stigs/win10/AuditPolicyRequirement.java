@@ -1,6 +1,7 @@
-package patterns;
+package rqcode.patterns.stigs.win10;
 
-import stig.*;
+import rqcode.concepts.CheckableEnforceableRequirement;
+
 import java.util.*;
 import java.io.*;
 

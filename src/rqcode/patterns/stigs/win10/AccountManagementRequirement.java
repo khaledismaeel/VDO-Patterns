@@ -1,4 +1,4 @@
-package patterns;
+package rqcode.patterns.stigs.win10;
 
 public abstract class AccountManagementRequirement extends AuditPolicyRequirement {
     @Override

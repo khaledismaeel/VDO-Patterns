@@ -1,6 +1,8 @@
-package patterns;
+package rqcode.stigs.win10;
 
-public class V_63467 extends LogonRequirement {
+import rqcode.patterns.stigs.win10.SensitivePrivilegeUseRequirement;
+
+public class V_63487 extends SensitivePrivilegeUseRequirement {
     @Override
     protected String getFailure() {
         return null;
@@ -18,7 +20,7 @@ public class V_63467 extends LogonRequirement {
 
     @Override
     public String checkTextCode() {
-        return "C-64215r1_chk";
+        return "C-64237r1_chk";
     }
 
     @Override
@@ -28,12 +30,12 @@ public class V_63467 extends LogonRequirement {
 
     @Override
     public String findingID() {
-        return "V-63467";
+        return "V-63487";
     }
 
     @Override
     public String fixTextCode() {
-        return "F-69395r1_fix";
+        return "F-69417r1_fix";
     }
 
     @Override
@@ -43,7 +45,7 @@ public class V_63467 extends LogonRequirement {
 
     @Override
     public String ruleID() {
-        return "SV-77957r1_rule";
+        return "SV-77977r1_rule";
     }
 
     @Override
@@ -58,6 +60,6 @@ public class V_63467 extends LogonRequirement {
 
     @Override
     public String version() {
-        return "WN10-AU-000075";
+        return "WN10-AU-000115";
     }
 }

@@ -1,24 +1,26 @@
-package patterns;
+package rqcode.stigs.win10;
 
-public class V_63487 extends SensitivePrivilegeUseRequirement {
+import rqcode.patterns.stigs.win10.SensitivePrivilegeUseRequirement;
+
+public class V_63483 extends SensitivePrivilegeUseRequirement {
     @Override
     protected String getFailure() {
-        return null;
-    }
-
-    @Override
-    protected String getInclusionSetting() {
-        return "Success";
-    }
-
-    @Override
-    protected String getSuccess() {
         return "enable";
     }
 
     @Override
+    protected String getInclusionSetting() {
+        return "Failure";
+    }
+
+    @Override
+    protected String getSuccess() {
+        return null;
+    }
+
+    @Override
     public String checkTextCode() {
-        return "C-64237r1_chk";
+        return "C-64235r1_chk";
     }
 
     @Override
@@ -28,12 +30,12 @@ public class V_63487 extends SensitivePrivilegeUseRequirement {
 
     @Override
     public String findingID() {
-        return "V-63487";
+        return "V-63483";
     }
 
     @Override
     public String fixTextCode() {
-        return "F-69417r1_fix";
+        return "F-69413r1_fix";
     }
 
     @Override
@@ -43,7 +45,7 @@ public class V_63487 extends SensitivePrivilegeUseRequirement {
 
     @Override
     public String ruleID() {
-        return "SV-77977r1_rule";
+        return "SV-77973r1_rule";
     }
 
     @Override
@@ -58,6 +60,6 @@ public class V_63487 extends SensitivePrivilegeUseRequirement {
 
     @Override
     public String version() {
-        return "WN10-AU-000115";
+        return "WN10-AU-000110";
     }
 }

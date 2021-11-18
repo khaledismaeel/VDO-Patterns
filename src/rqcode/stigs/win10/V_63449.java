@@ -1,19 +1,21 @@
-package patterns;
+package rqcode.stigs.win10;
 
-public class V_63447 extends UserAccountManagementRequirement {
+import rqcode.patterns.stigs.win10.UserAccountManagementRequirement;
+
+public class V_63449 extends UserAccountManagementRequirement {
     @Override
     public String findingID() {
-        return "V-63447";
+        return "V-63449";
     }
 
     @Override
     public String version() {
-        return "WN10-AU-000035";
+        return "WN10-AU-000040";
     }
 
     @Override
     public String ruleID() {
-        return "SV-77937r1_rule";
+        return "SV-77939r1_rule";
     }
 
     @Override
@@ -38,26 +40,26 @@ public class V_63447 extends UserAccountManagementRequirement {
 
     @Override
     public String checkTextCode() {
-        return "C-64195r1_chk";
+        return "C-64197r1_chk";
     }
 
     @Override
     public String fixTextCode() {
-        return "F-69375r1_fix";
+        return "F-69377r1_fix";
     }
 
     @Override
     protected String getInclusionSetting() {
-        return "Failure";
+        return "Success";
     }
 
     @Override
     protected String getSuccess() {
-        return null;
+        return "enable";
     }
 
     @Override
     protected String getFailure() {
-        return "enable";
+        return null;
     }
 }

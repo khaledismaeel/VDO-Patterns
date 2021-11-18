@@ -1,24 +1,26 @@
-package patterns;
+package rqcode.stigs.win10;
 
-public class V_63463 extends LogonRequirement {
+import rqcode.patterns.stigs.win10.LogonRequirement;
+
+public class V_63467 extends LogonRequirement {
     @Override
     protected String getFailure() {
-        return "enable";
-    }
-
-    @Override
-    protected String getInclusionSetting() {
-        return "Failure";
-    }
-
-    @Override
-    protected String getSuccess() {
         return null;
     }
 
     @Override
+    protected String getInclusionSetting() {
+        return "Success";
+    }
+
+    @Override
+    protected String getSuccess() {
+        return "enable";
+    }
+
+    @Override
     public String checkTextCode() {
-        return "C-64211r1_chk";
+        return "C-64215r1_chk";
     }
 
     @Override
@@ -28,12 +30,12 @@ public class V_63463 extends LogonRequirement {
 
     @Override
     public String findingID() {
-        return "V-63463";
+        return "V-63467";
     }
 
     @Override
     public String fixTextCode() {
-        return "F-69391r1_fix";
+        return "F-69395r1_fix";
     }
 
     @Override
@@ -43,7 +45,7 @@ public class V_63463 extends LogonRequirement {
 
     @Override
     public String ruleID() {
-        return "SV-77953r1_rule";
+        return "SV-77957r1_rule";
     }
 
     @Override
@@ -58,6 +60,6 @@ public class V_63463 extends LogonRequirement {
 
     @Override
     public String version() {
-        return "WN10-AU-000070";
+        return "WN10-AU-000075";
     }
 }

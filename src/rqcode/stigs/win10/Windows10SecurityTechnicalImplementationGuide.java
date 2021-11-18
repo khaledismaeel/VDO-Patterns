@@ -1,6 +1,6 @@
-package stig;
+package rqcode.stigs.win10;
 
-import patterns.*;
+import rqcode.concepts.CheckableEnforceableRequirement;
 
 public class Windows10SecurityTechnicalImplementationGuide {
     public static final CheckableEnforceableRequirement v_63447 = new V_63447();

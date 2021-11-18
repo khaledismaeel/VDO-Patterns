@@ -5,7 +5,7 @@ import rqcode.stigs.win10.Windows10SecurityTechnicalImplementationGuide;
 
 public class SimpleTest {
 
-    static void main () {
+    public static void main (String[] args) {
         for (Checkable r : Windows10SecurityTechnicalImplementationGuide.allSTIGs()) {
             r.check();
 

@@ -1,6 +1,6 @@
 package patterns;
 
-public class V_63931 extends SensitivePrivilegeUseRequirement {
+public class V_63931 extends UserAccountManagementRequirement {
     @Override
     protected String getFailure() {
         return null;
@@ -18,22 +18,22 @@ public class V_63931 extends SensitivePrivilegeUseRequirement {
 
     @Override
     public String checkTextCode() {
-        return "C-64237r1_chk";
+        return "C-64681r1_chk";
     }
 
     @Override
     public String date() {
-        return "2020-06-15";
+        return "2019-01-04";
     }
 
     @Override
     public String findingID() {
-        return "V-63487";
+        return "V_63931";
     }
 
     @Override
     public String fixTextCode() {
-        return "F-69417r1_fix";
+        return "F-69859r1_fix";
     }
 
     @Override
@@ -43,7 +43,7 @@ public class V_63931 extends SensitivePrivilegeUseRequirement {
 
     @Override
     public String ruleID() {
-        return "SV-77977r1_rule";
+        return "SV-78421r1_rule";
     }
 
     @Override
@@ -58,7 +58,7 @@ public class V_63931 extends SensitivePrivilegeUseRequirement {
 
     @Override
     public String version() {
-        return "WN10-AU-000115";
+        return "WN10-UR-000140";
     }
 }
 
